@@ -1,0 +1,39 @@
+name: camerasoft
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  camera: ^0.8.1+7
+  path_provider: ^2.1.1
+  intl: ^0.17.0
+  screenshot: ^2.1.0
+  external_path: ^1.0.3
+  permission_handler: ^11.0.1
+  geocoding: ^2.1.1
+  geolocator: ^10.1.0
+  flutter_tflite: ^1.0.1
+  google_mlkit_object_detection: ^0.10.0
+  get_storage: ^2.1.1
+  qr_code_dart_scan: ^0.2.1
+  mlkit_scanner: ^0.5.3
+  barcode_finder: ^0.0.5
+
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets:
+    - assets/
+    - assets/ml/
+  uses-material-design: true
+
